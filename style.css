@@ -1,3 +1,31 @@
-#table {
-    width:100%
+a {
+    text-decoration: none;
+}
+header {
+    background-image:url(./image/IMG_2554.JPG);
+    width:auto;
+    height:200px;
+    background-size: cover;
+    background-position: center;
+}
+#header_head{
+    text-decoration: none;
+    color:black;
+    font-size:xx-large;
+    font-weight: bold;
+}
+#nav_bar {
+    width:100%;
+}
+.nav_tab {
+    width:25%;
+    background-color: #555555;
+}
+.nav_tab_text {
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    
+}
+.nav_tab_text:hover{
+    color:#333333;
 }
