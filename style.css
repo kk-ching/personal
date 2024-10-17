@@ -1,18 +1,22 @@
 a {
     text-decoration: none;
 }
-header {
-    background-image:url(image/IMG_2554.JPG);
+.white {
+    color:white;
+}
+#header {
+    background-image:url(IMAGE/52749195778_58fde1fe85_o_crop.jpg);
     width:auto;
     height:200px;
     background-size: cover;
     background-position: center;
 }
 #header_head{
+    text-align: center;
     text-decoration: none;
     color:black;
     font-size:xx-large;
-    font-weight: bold;
+    font-weight: bold;  
 }
 #nav_bar {
     width:100%;
@@ -28,4 +32,8 @@ header {
 }
 .nav_tab_text:hover{
     color:#333333;
+}
+.source.block {
+    width:100%;
+    height:500px
 }
