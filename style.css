@@ -39,29 +39,29 @@ header {
     width:20px;
     height:20px;
 }
-#test_table_contatiner{
+#test_table_contatiner, #project_table_container{
     padding: 20px 10%;
     height:500px;
 }
-#test_table{
+#test_table, #project_table{
     border:1px solid white;
     border-collapse: collapse;
     width:100%;
 }
-.test_table_date, .test_table_link{
+.test_table_date, .test_table_link, .project_table_date, .project_table_link {
     column-span: 10%;
     border:1px solid white;
     height:40px;
     width:15%;
     text-align: center;
 }
-.test_table_description{
+.test_table_description, .project_table_description {
     border:1px solid white;
     height:40px;
     width:55%;
     text-align: center;
 }
-.test_table_org{
+.test_table_org, .project_table_org{
     border:1px solid white;
     height:40px;
     width:5%;
