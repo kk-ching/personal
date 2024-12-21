@@ -1,0 +1,29 @@
+#projects_table {
+    width: 85%;
+    margin: 30px auto;
+    border:1px solid white;
+    border-collapse: collapse;
+}
+#projects_table th, #projects_table td {
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid white;
+}
+.ddate{
+    width:15%;
+}
+.lmod{
+    width:15%;
+}
+.desc{
+    width:50%;
+}
+.llink{
+    width:10%;
+}
+td a{
+    text-decoration: none;
+    color: yellow;
+}
+
