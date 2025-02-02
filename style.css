@@ -9,12 +9,19 @@ header {
     background-position: center;
     text-align: center;
     padding:80px 0 ;
+    position:relative;
 }
 #header_head{
     text-decoration: none;
     color:black;
     font-size:xx-large;
     font-weight: bold;  
+}
+#clock {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    color:yellow;
 }
 #nav_bar {
     width:100%;
