@@ -10,16 +10,16 @@ function keyword(ketword) {
 
 function check() {
 
-
-    if (keyword("Chrome")) {
+    if (keyword("Edge") || keyword("Edg")) {
+        browser = "Edge";
+    }else if (keyword("Chrome")) {
         browser = "chrome";
     } else if (keyword("Firefox")){
         browser = "firefox";
     }else if (keyword("Safari")){
         browser = "Safari";
-    }else if (keyword("Edge")) {
-        browser = "Edge";
-    }else if (keyword("Opera")){
+    }
+    else if (keyword("Opera")){
         browser = "opera";
     }
 
@@ -40,3 +40,4 @@ function check() {
 
     OUTPUT.innerHTML = "Your using " + browser + " on " + os;
 }
+check();
