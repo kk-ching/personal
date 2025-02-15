@@ -38,6 +38,6 @@ function check() {
         os = "IOS";
     }
 
-    OUTPUT.innerHTML = "Your using " + browser + " on " + os;
+    OUTPUT.innerHTML = "You're using " + browser + " on " + os;
 }
 check();
