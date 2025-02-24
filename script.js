@@ -6,8 +6,16 @@ function update_time() {
     let hour = now.getHours();
     let min = now.getMinutes();
     let sec = now.getSeconds();
+    switch (true) {
+        case (hour < 12):
+            document.getElementById("greet").innerHTML = "おはよう。";
+            break;
+        default:
+            document.getElementById("greet").innerHTML = "こんにちわ。";
+            break;
+    }
     let date_string =  day + "/" + month + "/" + year;
-    let time_string = ('0'+hour).slice(-2) + ":" + ('0'+min).slice(-2) + ":" +('0'+sec).slice(-2);
+    let time_string =('0'+hour).slice(-2) + ":" + ('0'+min).slice(-2) + ":" +('0'+sec).slice(-2);
     document.getElementById("date").innerHTML = date_string;
     document.getElementById("time").innerHTML = time_string;
     console.log("updated clock on " + date_string + " " + time_string);
